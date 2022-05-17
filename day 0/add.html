@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo">31</p>
+    <p id="qwer">42</p>
+    <p id="pop">0</p>
+    <button type="button" onclick='ShowResult()'>Show Result
+    </button>
+
+    <script>
+        function ShowResult(){ 
+            let x=document.getElementById("demo").innerText
+            let y=document.getElementById("qwer").innerText
+            let z=addPair(x,y)
+            document.getElementById("pop").innerHTML=z
+
+        }
+        function addPair(x,y){
+            return Number(x) + Number(y)
+        }
+    </script>
+   
+ </body>
+</html>
