@@ -1,0 +1,7 @@
+Express->
+    get->  call a function if an url is clicked
+
+Mysql->
+    createConnection-> connect to existing database in current pc
+    connect->connected or not
+    query->execute any database query

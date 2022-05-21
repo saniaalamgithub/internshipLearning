@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="demo"></p>
+    <button onClick="showDate()">the month is</button>
+
+    <script>
+        function showDate(){
+            let dt = new Date()
+            document.getElementById("demo").innerHTML = dt.toLocaleString('ja', { month: 'long' });
+        }
+        </script>
+</body>
+</html>
