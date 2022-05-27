@@ -6,4 +6,10 @@
 /day2/.env
 /day3/node_modules
 /day3/package-lock.json
+/day5/frontend/node_modules
+/day5/frontend/package-lock.json
+/day5/backend/node_modules
+/day5/backend/package-lock.json
 /day3/.env
+day4/login/package-lock.json
+day5/frontend/login_page/package-lock.json
