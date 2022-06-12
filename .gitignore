@@ -13,3 +13,6 @@
 /day3/.env
 day4/login/package-lock.json
 day5/frontend/login_page/package-lock.json
+/day7/backend/node_modules
+/day7/backend/package-lock.json
+day7/backend/.env

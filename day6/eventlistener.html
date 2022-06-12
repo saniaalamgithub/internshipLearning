@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="hey()">
+    <script>
+        function hey(){
+         alert("hello swami")
+        }
+    </script>
+    <h1>i love tusar</h1>
+    <script>
+      var x = document.querySelector("h1");
+      x.addEventListener("mouseover", test);
+
+      function test() {
+        x.classList.add("new");
+      }
+      x.addEventListener("mouseout", retest);
+
+      function retest() {
+        x.classList.remove("new");
+      }
+    </script>
+    <h3>button is yet to press</h3>
+    <div>
+      <button class="button">button 1</button>
+    </div>
+    <div>
+      <button class="button">button 2</button>
+    </div>
+    <div>
+      <button class="button">button 3</button>
+    </div>
+    <div>
+      <button class="button">button 4</button>
+    </div>
+    <div>
+      <button class="button">button 5</button>
+    </div>
+    <script>
+          for(i=0;i<6;i++){
+              document
+          .querySelectorAll("button")[i]
+          .addEventListener("click", function () {
+            var x = this.innerHTML;
+            document.querySelector("h3").innerHTML = x + " is pressed now ";
+          });
+
+          }
+      //   document
+      //     .querySelectorAll("button")[0]
+      //     .addEventListener("click", function () {
+      //       var x = this.innerHTML;
+      //       document.querySelector("h3").innerHTML = x + " is pressed now ";
+      //     });
+      //   document
+      //     .querySelectorAll("button")[1]
+      //     .addEventListener("click", function () {
+      //       var xx = this.innerHTML;
+      //       document.querySelector("h3").innerHTML = xx + " is pressed now ";
+      //     });
+      //   document
+      //     .querySelectorAll("button")[2]
+      //     .addEventListener("click", function () {
+      //       var xy = this.innerHTML;
+      //       document.querySelector("h3").innerHTML = xy + " is pressed now ";
+      //     });
+      //   document
+      //     .querySelectorAll("button")[3]
+      //     .addEventListener("click", function () {
+      //       var xz = this.innerHTML;
+      //       document.querySelector("h3").innerHTML = xz + " is pressed now ";
+      //     });
+      //   document
+      //     .querySelectorAll("button")[4]
+      //     .addEventListener("click", function () {
+      //       var xt = this.innerHTML;
+      //       document.querySelector("h3").innerHTML = xt + " is pressed now ";
+      //     });
+    </script>
+  </body>
+</html>
